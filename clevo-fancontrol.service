@@ -1,0 +1,8 @@
+[Unit]
+Description=Clevo FAN controller
+
+[Service]
+ExecStart=/usr/local/bin/clevo-fancontrol
+
+[Install]
+WantedBy=multi-user.target
